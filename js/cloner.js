@@ -23,7 +23,7 @@
         e.remove();
       });
     }
-    let head = `<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="canonical" href="${loc.href}"/><link rel="shorcut icon" href="https://cdn-limit.wasmer.app/icons/rocket.ico"/>`,
+    let head = `<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="canonical" href="${loc.href}"/><link rel="shorcut icon" href="https://cdn-limit.wasmer.app/icons/rocket.ico"/><meta name="robots" content="index, follow"/>`,
         body = '';
     if(!locSearch.startsWith('?read=')) {
       head += `<title>${document.title}</title>`;
